@@ -1,5 +1,5 @@
 
-# BLoC Flutter Example 🚀
+# Flutter Special Widgets 🚀
 
 ![Flutter](https://img.shields.io/badge/Flutter%20-%20Special%20Widgets%20-%20)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
