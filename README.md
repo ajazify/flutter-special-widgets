@@ -8,10 +8,10 @@
 
 ### Widget Gallery
 
-| Stepper Example | Stepper Example | Stepper Example |
+| Stepper Example | Choice Chip Example | Drawer Example |
 |-----------------|-----------------|-----------------|
-| <img src="https://github.com/ajazify/git_image/blob/main/stepper_example.png?raw=true" width="200"/> | <img src="[https://github.com/ajazify/git_image/blob/main/stepper_example.png](https://github.com/ajazify/git_image/blob/main/sliver_app_bar_example.png)?raw=true" width="200"/> | <img src="https://github.com/ajazify/git_image/blob/main/stepper_example.png?raw=true" width="200"/> |
+| <img src="https://github.com/ajazify/git_image/blob/main/snippet-images/stepper_example.png?raw=true" width="200"/> | <img src="https://github.com/ajazify/git_image/blob/main/snippet-images/choice_chip_example.png?raw=true" width="200"/> | <img src="https://github.com/ajazify/git_image/blob/main/snippet-images/drawer-example.jpg?raw=true" width="200"/> |
 
-| Stepper Example | Stepper Example | Stepper Example |
-|-----------------|-----------------|-----------------|
-| <img src="https://github.com/ajazify/git_image/blob/main/stepper_example.png?raw=true" width="200"/> | <img src="https://github.com/ajazify/git_image/blob/main/stepper_example.png?raw=true" width="200"/> | <img src="https://github.com/ajazify/git_image/blob/main/stepper_example.png?raw=true" width="200"/> |
+| Expansion Tile Example | Sliver Appbar Example | 
+|-----------------|-----------------|
+| <img src="https://github.com/ajazify/git_image/blob/main/snippet-images/expansion_tile_example.png?raw=true" width="200"/> | <img src="https://github.com/ajazify/git_image/blob/main/snippet-images/sliver_app_bar_example.png?raw=true" width="200"/> |
