@@ -168,3 +168,43 @@ class NoInternetScreen extends StatelessWidget {
     return Scaffold(body: Center(child: Text("No Internet Connection!")));
   }
 }
+
+
+
+
+//! iOS info.plist
+//you typically don't need special permissions for basic network connectivity checking, but there are a few considerations:
+/*
+
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+</dict>
+
+This allows HTTP requests (since the code uses InternetAddress.lookup('google.com') which might use HTTP).
+Alternative (more secure) - If you want to be more restrictive, you can specify exceptions:
+
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSExceptionDomains</key>
+    <dict>
+        <key>google.com</key>
+        <dict>
+            <key>NSExceptionAllowsInsecureHTTPLoads</key>
+            <true/>
+        </dict>
+    </dict>
+</dict>
+
+*/
+
+
+//! AndroidManifest.xml
+/*
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+*/
+
+
+
