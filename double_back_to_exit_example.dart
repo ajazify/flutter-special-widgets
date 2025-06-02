@@ -45,16 +45,29 @@ class _DoubleBackToExitState extends State<DoubleBackToExit> {
   }
 }
 
+// Example Usage with MyApp
+void main() {
+  runApp(const MyApp());
+}
 
-// Usage
-// Simple - Just wrap any widget that you want to show execute double press to exit.
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Double Back Demo',
+      home: const HomePage(),
+    );
+  }
+}
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return DoubleBackToExit( // Add this code
+    return DoubleBackToExit(
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Home Page'),
