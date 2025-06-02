@@ -22,9 +22,11 @@
 
 
 
-| [Show Modal Bottom Sheet](show-modal-bottom-sheet-example.dart) | [Example](example.dart) | [Example](Example.dart) | 
+| [Show Modal Bottom Sheet](show-modal-bottom-sheet-example.dart) | [Double Back to Exit](double_back_to_exit_example.dart) | [Example](Example.dart) | 
 |-----------------|-----------------|-----------------|
-| <img src="https://github.com/ajazify/git_image/blob/main/snippet-images/show-modal-bottom-sheet-example.jpg?raw=true" width="200"/> | <img src="https://github.com/ajazify/git_image/blob/main/snippet-images/full-size-alert-dialog-examples.jpg?raw=true" width="200"/> | <img src="https://github.com/ajazify/git_image/blob/main/snippet-images/responsive-grid-views.jpg?raw=true" width="200"/> | 
+| <img src="https://github.com/ajazify/git_image/blob/main/snippet-images/show-modal-bottom-sheet-example.jpg?raw=true" width="200"/> | <img src="https://github.com/ajazify/git_image/blob/main/snippet-images/double_back_to_exit.png?raw=true" width="200"/> | <img src="https://github.com/ajazify/git_image/blob/main/snippet-images/responsive-grid-views.jpg?raw=true" width="200"/> | 
+
+
 
 
 
