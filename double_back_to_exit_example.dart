@@ -44,3 +44,29 @@ class _DoubleBackToExitState extends State<DoubleBackToExit> {
     );
   }
 }
+
+
+// Usage
+// Simple - Just wrap any widget that you want to show execute double press to exit.
+
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return DoubleBackToExit( // Add this code
+      child: Scaffold(
+        appBar: AppBar(
+          title: const Text('Home Page'),
+        ),
+        body: const Center(
+          child: Text(
+            'This is the home page.\nPress back twice to exit.',
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 18),
+          ),
+        ),
+      ),
+    );
+  }
+}
